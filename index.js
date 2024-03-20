@@ -29,45 +29,69 @@ let bestplace ='greece';
 // 3.0 STRING OPERATIONS
 //TODO: Concatenate string (+)
 let prize = 'car' + 'house';
+console.log(prize);
 
 //TODO: Interpolate string (`${}`)
-
+let age = '15'
+console.log( 'you are ${age} years'); 
 
 //TODO: Convert to uppercase
+let city = 'nairobi';
+console.log(city.toUppercase());
 
 
 //TODO: Convert to lowercase
-
+let city = 'MOMBASA';
+console.log(city.toLowwercase());
 
 //TODO: Index a specific character
-
+let month = 'December';
+let charAtIndexfour = month[4];
+console.log(charAtIndexfour);
 
 //TODO: PRACTICE ON YOUR OWN (Check mozilla documentation)
 
-
 // 4.0 COMPARISON
 //TODO: strict equality
-
+let num1 = 15;
+let num2 = 10;
+console.log(num1 === num2);
 
 //TODO: strict inequality
-
+let num1 = 15;
+let num2 = 10;
+console.log(num1 !== num2);
 
 //TODO: equality
-
+let num1 = 3;
+let num2 = 3;
+console.log(num1 == num2);
 
 //TODO: inequality
-
+let num1 = 2;
+let num2 = 3;
+console.log(num1 != num2);
 
 //TODO: greater than
-
+let num 1 = 20;
+let num 2 = 19;
+console.log(num1 > num2);
 
 //TODO: less than
-
+let num 1 = 13;
+let num 2 = 19;
+console.log(num1 < num2);
 
 //TODO: greater or equal to
+let num 1 = 20;
+let num 2 = 19;
+console.log(num1 >= num2);
 
 
 //TODO: less or equal to
+let num 1 = 13;
+let num 2 = 19;
+console.log(num1 <= num2);
 
 
 
